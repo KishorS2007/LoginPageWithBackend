@@ -1,0 +1,38 @@
+
+*{
+  background-color: rgb(202, 238, 252);
+  /* overflow-x: hidden; */
+}
+
+table{
+  table-layout: auto;
+  width: 200px;
+  height: 100px;
+  margin:10vh auto ;
+  text-align: center;
+  border-radius: 10px;
+}
+table input{
+  text-align: center;
+  width: 100px;
+}
+th,td{
+  border: 1px solid black;
+  padding:1vh 3vw ;
+}
+
+.boxes input ,.boxes div{
+  text-align: center;
+  
+}
+h1{
+  text-align: center;
+  margin: 10vh;
+} 
+.password{
+  text-align: center;
+  margin: 1rem;
+}
+.form-control ,.btn-danger{
+  box-shadow:  2px 4px 8px 0px black;
+}
