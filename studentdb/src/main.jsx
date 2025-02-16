@@ -4,7 +4,8 @@ import './index.css'
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 import Login from './Login.jsx'
 import Form from './Form.jsx'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const router = createBrowserRouter([
   {
     path:"/",

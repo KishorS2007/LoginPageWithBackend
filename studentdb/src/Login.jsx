@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
-
+import Popup from "./Popup";
 function Login(){
 
     const [Email,SetEmail] = useState("");
@@ -33,6 +33,7 @@ function Login(){
     }
 
 return(<>
+    <Popup /> 
 <div className=".form">
 <form style={{width:"50%",margin:"10vh auto"}}>
 <h1>Login</h1>
